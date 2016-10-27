@@ -1,0 +1,32 @@
+/* Generic margs&pads */
+
+.margin-top-1 {
+	margin-top: 3em !important;
+}
+
+.no-right-margin {
+	margin-right: 0em !important;
+}
+
+.left-margin-n {
+	margin-left: -0.25em !important;
+}
+
+/* General */
+
+body {
+ 	background-color: #EEE !important;
+ }
+ 
+ #search-bar {
+ 	background-color: white;
+ 	padding: 2em;
+ 	border-radius: 0.25em;
+ 	box-shadow: 0.1em 0.1em 0.3em 0em #606060;
+ }
+
+ /* Form */
+ input {
+ 	width: 100% !important;
+ }
+ 
