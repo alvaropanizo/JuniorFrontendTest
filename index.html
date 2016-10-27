@@ -11,7 +11,7 @@
 	    <link rel="shortcut icon" href="images/favicon72.png" type="image/x-icon"/>
 
 	    <script src="https://use.fontawesome.com/fc113f016b.js"></script>
-	    <script src="searchUser.js"></script>
+	    <script src="searchGitUsers.js"></script>
 
 	    <title>Github user search</title>
 	</head>
@@ -19,18 +19,21 @@
 	<body>
 	   <div class="col-sm-4 col-sm-offset-4 margin-top-1" id="search-bar">
 	    <div class="row no-right-margin margin-left-n">
-	        <form class="form-inline" id="search_user">
+	        <form class="form-inline" method="get" id="search_user">
 
 		        <div class="form-group col-sm-9">
-		          <input type="text" class="form-control" id="form" placeholder ="Search username ...">
+		          <input id="profile_name" type="text" name="username"  placeholder=" Search username">
 		        </div><!--form-->
 		        
 		        <div class="col-sm-3">
-		          <button type="submit" class="btn btn-primary">Search</button>	        
+		           <input id="submit" type="submit" value="Search">        
 		        </div><!--col-sm-3-->
 
 	        </form>
 	    </div> <!--row search-->
+	    <div id="profile">
+	   		<!-- render code here -->
+    	</div><!--profile-->
     	<div id="result">
     		<!-- render code here -->
     	</div><!--result-->
